@@ -1,13 +1,14 @@
 {
-  "name": "zandromeda",
-  "displayName": "Zandromeda",
-  "description": "Theme meant to be as close as possible to the Andromeda theme from the Zed Editor.",
-  "version": "0.0.1",
+  "name": "zedromeda",
+  "icon": "assets/icon.png",
+  "displayName": "Zedromeda",
+  "description": "Zedromeda theme aims to be as close as possible to the original Zed Editor Andromeda theme.",
+  "version": "0.0.5",
   "license": "MIT",
   "publisher": "tommalitz",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TomMalitz/zandromeda.git"
+    "url": "git+https://github.com/TomMalitz/zedromeda.git"
   },
   "engines": {
     "vscode": "^1.98.0"
@@ -18,9 +19,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Zandromeda",
+        "label": "Zedromeda",
         "uiTheme": "vs-dark",
-        "path": "./themes/Zandromeda-color-theme.json"
+        "path": "./themes/Zedromeda-color-theme.json"
       }
     ]
   }
