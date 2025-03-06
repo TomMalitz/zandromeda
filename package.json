@@ -1,0 +1,21 @@
+{
+  "name": "zandromeda",
+  "displayName": "Zandromeda",
+  "description": "Theme meant to be as close as possible to the Andromeda theme from the Zed Editor.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zandromeda",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zandromeda-color-theme.json"
+      }
+    ]
+  }
+}
