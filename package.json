@@ -3,6 +3,12 @@
   "displayName": "Zandromeda",
   "description": "Theme meant to be as close as possible to the Andromeda theme from the Zed Editor.",
   "version": "0.0.1",
+  "license": "MIT",
+  "publisher": "tommalitz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomMalitz/zandromeda.git"
+  },
   "engines": {
     "vscode": "^1.98.0"
   },
