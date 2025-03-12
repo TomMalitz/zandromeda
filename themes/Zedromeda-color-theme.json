@@ -275,8 +275,11 @@
 		"constant.static": "#96DF71",
 		
 		// Light Green
+		"class": "#08E7C5",
 		"derive": "#08E7C5",
 		"enumMember": "#08e7c5",
+		"variable.other.readwrite:csharp": "#08e7c5",
+
 		// Dark Green
 		"decorator.attribute": "#10A793",
 		"property": "#10A793",
@@ -299,28 +302,28 @@
 		},
 		{
 			"name": "orange",
-			"scope": "storage.type.function.arrow.ts,storage.type.function.arrow.js",
+			"scope": "meta.template.expression.js,meta.template.expression.ts,keyword.operator.spread.js,keyword.operator.spread.ts,punctuation.accessor.optional.ts,storage.type.function.arrow.ts,storage.type.function.arrow.js",
 			"settings": {
 				"foreground": "#F29C14"
 			}
 		},
 		{
 			"name": "lighter-green",
-			"scope": "",
+			"scope": "keyword.control.conditional.vue",
 			"settings": {
 				"foreground": "#96DF71"
 			}
 		},
 		{
 			"name": "light-green",
-			"scope": "entity.other.attribute-name.js.jsx,entity.other.attribute-name.tsx,support.constant.property-value.misc.css,support.constant.property-value.css,entity.other.attribute-name.html,keyword.type.void.cs,keyword.type.int.cs,keyword.type.float.cs,storage.type.var.cs,keyword.other.unit",
+			"scope": "keyword.type.dynamic.cs,keyword.type.delegate.cs,keyword.type.ushort.cs,keyword.type.short.cs,keyword.type.ulong.cs,keyword.type.long.cs,keyword.type.nunit.cs,keyword.type.nint.cs,keyword.type.uint.cs,keyword.type.int.cs,keyword.type.float.cs,keyword.type.double.cs,keyword.type.object.cs,keyword.type.char.cs,keyword.type.sbyte.cs,keyword.type.decimal.cs,keyword.type.byte.cs,keyword.type.bool.cs,keyword.type.string.cs,entity.other.attribute-name.js.jsx,entity.other.attribute-name.tsx,support.constant.property-value.misc.css,support.constant.property-value.css,entity.other.attribute-name.html,keyword.type.void.cs,keyword.type.int.cs,keyword.type.float.cs,storage.type.var.cs,keyword.other.unit",
 			"settings": {
 				"foreground": "#08E7C5"
 			}
 		},
 		{
 			"name": "dark-green",
-			"scope": "meta.import.ts,meta.import.js.jsx,keyword.control.flow.js.jsx,meta.export.default.tsx,meta.import.tsx,keyword.control.flow.tsx,punctuation.definition.tag.begin.tsx,punctuation.definition.tag.end.tsx,punctuation.definition.tag.end.js.jsx,punctuation.definition.tag.begin.js.jsx,keyword.control.import.js.jsx,keyword.control.import.js.jsx,keyword.control.at-rule.media.css,keyword.control.at-rule.keyframes.css,keyword.control.trycatch.ts,keyword.control.at-rule.apply.tailwind,keyword.control.at-rule.layer.tailwind,keyword.other.important.css,keyword.control.default.ts,keyword.control.default.js,keyword.control.export.js,keyword.control.import.ts,keyword.control.conditional.ts,keyword.control.flow.ts,keyword.control.export.ts,keyword.other.rust,keyword.other.directive.using.cs,keyword.control.conditional.if.cs,keyword.control.context.using.cs",
+			"scope": "keyword.control.loop.js,keyword.control.loop.ts,meta.import.ts,meta.import.js.jsx,keyword.control.flow.js.jsx,meta.export.default.tsx,meta.import.tsx,keyword.control.flow.tsx,punctuation.definition.tag.begin.tsx,punctuation.definition.tag.end.tsx,punctuation.definition.tag.end.js.jsx,punctuation.definition.tag.begin.js.jsx,keyword.control.import.js.jsx,keyword.control.import.js.jsx,keyword.control.at-rule.media.css,keyword.control.at-rule.keyframes.css,keyword.control.trycatch.ts,keyword.control.at-rule.apply.tailwind,keyword.control.at-rule.layer.tailwind,keyword.other.important.css,keyword.control.default.ts,keyword.control.default.js,keyword.control.export.js,keyword.control.import.ts,keyword.control.conditional.ts,keyword.control.flow.ts,keyword.control.export.ts,keyword.other.rust,keyword.other.directive.using.cs,keyword.control.conditional.if.cs,keyword.control.context.using.cs",
 			"settings": {
 				"foreground": "#10A793"
 			}
@@ -1684,26 +1687,26 @@
 				"foreground": "#10a793"
 			}
 		},
-		{
-			"name": "String interpolation",
-			"scope": [
-				"punctuation.definition.template-expression.begin",
-				"punctuation.definition.template-expression.end",
-				"punctuation.section.embedded"
-			],
-			"settings": {
-				"foreground": "#f7f7f8"
-			}
-		},
-		{
-			"name": "Reset JavaScript string interpolation expression",
-			"scope": [
-				"meta.template.expression"
-			],
-			"settings": {
-				"foreground": "#f7f7f8"
-			}
-		},
+		// {
+		// 	"name": "String interpolation",
+		// 	"scope": [
+		// 		"punctuation.definition.template-expression.begin",
+		// 		"punctuation.definition.template-expression.end",
+		// 		"punctuation.section.embedded"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#f7f7f8"
+		// 	}
+		// },
+		// {
+		// 	"name": "Reset JavaScript string interpolation expression",
+		// 	"scope": [
+		// 		"meta.template.expression"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#f7f7f8"
+		// 	}
+		// },
 		{
 			"name": "Import module JS",
 			"scope": [
