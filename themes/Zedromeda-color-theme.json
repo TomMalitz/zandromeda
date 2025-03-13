@@ -282,6 +282,7 @@
 
 		// Dark Green
 		"decorator.attribute": "#10A793",
+		"controlKeyword": "#10A793",
 		"property": "#10A793",
 		"decorator": "#10A793",
 	},
