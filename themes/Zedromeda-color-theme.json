@@ -270,9 +270,11 @@
 		"parameter.callable": "#FEE56C",
 		// Orange
 		// "operator": "#F29C14",
+
 		// Lighter Green #96DF71
 		"const": "#96DF71",
 		"constant.static": "#96DF71",
+		"variable.defaultLibrary": "#96DF71",
 		
 		// Light Green
 		"class": "#08E7C5",
